@@ -20,4 +20,11 @@ responses={"hi":"Hello "+name,"how are you":"I am fine","who are you":"I am your
 elif 17<=presenttime<20:
  print("Good evening",name) 
 else:
- print("Good night",name) 
+ print("Good night",name)
+ 
+#creating a function for answering the question
+def ask(userquestion):
+ if userquestion.lower() in responses:
+ print("chatbot response :",responses[userquestion])
+ else: 
+ print("sorry,I could not able to answer yet,i will learn it soon")
