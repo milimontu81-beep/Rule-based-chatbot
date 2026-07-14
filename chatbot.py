@@ -12,6 +12,10 @@ if 1<=presenttime<12:
  print("Good morning",name)
 elif 12<=presenttime<17:
  print("Good afternoon",name)
+elif 17<=presenttime<20:
+ print("Good evening",name) 
+else:
+ print("Good night",name)
 
 #for chatbot responses
 print(f"Hello {name} I am your chatbot,ask me something ")
