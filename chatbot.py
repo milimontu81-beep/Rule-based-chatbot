@@ -24,7 +24,18 @@ else:
  
 #creating a function for answering the question
 def ask(userquestion):
- if userquestion.lower() in responses:
- print("chatbot response :",responses[userquestion])
- else: 
- print("sorry,I could not able to answer yet,i will learn it soon")
+   if userquestion.lower() in responses:
+     print("chatbot response :",responses[userquestion])
+   else: 
+     print("sorry,I could not able to answer yet,i will learn it soon")
+
+#for asking question again and again 
+while True:
+   #for asking question 
+   userquestion=input("ask me something:")
+   if userquestion.lower()=="bye":
+     print("chatbot response:thanks for using me")
+   break
+   #calling function 
+   ask(userquestion) 
+ 
