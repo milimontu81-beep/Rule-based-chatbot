@@ -11,10 +11,10 @@
 
 # how it work
 
--"greeting":ask for the user name and personalised greeting.
--"question matching":compare your question against the predefined dictionary of Q&A pairs.
--"response":if the question matches it answer,otherwise it politely asks you to ask later.
--"loop": continues until you type bye.
+- "greeting":ask for the user name and personalised greeting.
+- "question matching":compare your question against the predefined dictionary of Q&A pairs.
+- "response":if the question matches it answer,otherwise it politely asks you to ask later.
+- "loop": continues until you type bye.
 
 # Questions It Can Answer
 
