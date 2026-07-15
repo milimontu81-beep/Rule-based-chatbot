@@ -9,4 +9,5 @@
 
 #how it work
 -"greeting":ask for the user name and personalised greeting.
--"question matching":check whether the 
+-"question matching":compare your question against the predefined dictionary of Q&A pairs.
+-"response":
