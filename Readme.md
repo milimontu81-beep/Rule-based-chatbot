@@ -5,7 +5,8 @@
 - take user name and wellcome.
 - personalise greeting according to time(good morning,good afternoon, Good evening,good night).
 - answer question from predefined dictionary.
-- type "bye" to exit
+- type "bye" to exit.
 
-#
-
+#how it work
+-"greeting":ask for the user name and personalised greeting.
+-"question matching":check whether the 
