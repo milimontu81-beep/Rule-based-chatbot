@@ -10,4 +10,4 @@
 #how it work
 -"greeting":ask for the user name and personalised greeting.
 -"question matching":compare your question against the predefined dictionary of Q&A pairs.
--"response":if the question matches it give simple answer,if not otherwise it politely ask you to ask later.
+-"response":if the question matches it answer,otherwise it politely asks you to ask later.
